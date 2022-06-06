@@ -1,7 +1,7 @@
 package Algo14Days;
 
 public class One_BinarySearch {
-    int binarysearch(int arr[],int target){
+    int binarysearch(int arr[],int target){  //O(log n) Time Complexity
         int left=0,right= arr.length-1,mid;
 
         while(left<=right){

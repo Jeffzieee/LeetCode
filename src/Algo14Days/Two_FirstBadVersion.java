@@ -8,7 +8,7 @@ public class Two_FirstBadVersion {
 
     /*
     public class Solution extends VersionControl {
-        public int firstBadVersion(int n) {
+        public int firstBadVersion(int n) { //O(log n) Time Complexity
             int left=0,right=n-1,mid;
             while(left<=right){
                 mid=left+(right-left)/2;

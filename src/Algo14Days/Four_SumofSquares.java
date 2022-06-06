@@ -3,7 +3,7 @@ package Algo14Days;
 
 public class Four_SumofSquares {
 
-    int[] sortedSumofSquares(int[] nums){
+    int[] sortedSumofSquares(int[] nums){  //O(n) Time Complexity
         int[] sorted = new int[nums.length];
         int left = 0,right=sorted.length-1;
         int index=right;

@@ -2,7 +2,7 @@ package Algo14Days;
 
 public class Three_SearchInsertPosition {
 
-    int binarysearch(int nums[],int target){
+    int binarysearch(int nums[],int target){ //O(log n) Time Complexity
         int left = 0,right= nums.length-1,mid;
         while(left<=right){
             mid=left+(right-left)/2;
